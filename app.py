@@ -239,7 +239,7 @@ income_range = st.sidebar.slider(
 )
 
 only_high_opportunity = st.sidebar.checkbox(
-    "Only high opportunity areas (score >= 80)",
+    f"Only high opportunity areas (Top 25% | score ≥ {high_op_threshold:.1f})",
     value=False
 )
 
