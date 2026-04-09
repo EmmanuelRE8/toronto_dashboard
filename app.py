@@ -100,18 +100,6 @@ def prettify_category(text):
 df["Category_Display"] = df["Category"].apply(prettify_category)
 
 # --------------------------------------------------
-# Debug section
-# This helps confirm we are reading the correct file
-# --------------------------------------------------
-'''
-with st.expander("Debug / Source File Check"):
-    st.write("Rows:", len(df))
-    st.write("Unique neighborhoods:", df["neighborhood_name"].nunique())
-    st.write("Unique categories:", df["Category"].nunique())
-    st.write("Categories found:", sorted(df["Category"].unique().tolist()))
-    st.dataframe(df.head(10), use_container_width=True)
-'''
-# --------------------------------------------------
 # Helper function for normalization
 # --------------------------------------------------
 def normalize(series):
