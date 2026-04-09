@@ -21,7 +21,7 @@ st.title("Business Location Recommendation - Toronto")
 # Data source
 # Replace with the NEW Google Drive file ID
 # --------------------------------------------------
-FILE_ID = "PUT_NEW_FILE_ID_HERE"
+FILE_ID = "1KxoJgSIGEGnHoLUTR7Vd1VyyT2fPQRtM"
 CSV_URL = f"https://drive.google.com/uc?export=download&id={FILE_ID}"
 
 # --------------------------------------------------
